@@ -8,6 +8,7 @@ namespace GummyBearKingdom.Models
     {
         [Key]
         public int ProductId { get; set; }
+        public string ImageUrl { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]

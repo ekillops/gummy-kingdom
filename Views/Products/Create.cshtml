@@ -10,7 +10,7 @@
 <form asp-controller="Products" asp-action="Create" method="post">
     <div class="form-group">
         <label for="Name">Product Name</label>
-        <input class="form-control" type="text" asp-for="Name" />
+        <input class="form-control" type="text" asp-for="Name" placeholder="Gummy Bears" />
     </div>
     <div class="form-group">
         <label for="Cost">Product Cost</label>
@@ -18,7 +18,11 @@
     </div>
     <div class="form-group">
         <label for="OriginCountry">Country of Origin</label>
-        <input class="form-control" type="text" asp-for="OriginCountry" />
+        <input class="form-control" type="text" asp-for="OriginCountry" placeholder="USA" />
+    </div>
+    <div class="form-group">
+        <label for="ImageUrl">Image (URL)</label>
+        <input class="form-control" type="text" asp-for="ImageUrl" placeholder="http://www.imagewebsite.com/img/1234" />
     </div>
     <button type="submit" class="btn btn-danger">Add Product</button>
 </form>

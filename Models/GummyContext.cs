@@ -16,6 +16,10 @@ namespace GummyBearKingdom.Models
         {
         }
 
+        public GummyContext()
+        {
+        }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

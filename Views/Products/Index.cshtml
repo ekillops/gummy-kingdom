@@ -1,4 +1,13 @@
-﻿@{@{
+﻿@{
     ViewData["Title"] = "Gummy Bear Kindgom - Products";
     Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model ICollection<GummyBearKingdom.Models.Product>
+
+<h2>Our Products</h2>
+
+@foreach(var product in Model)
+{
+
 }
