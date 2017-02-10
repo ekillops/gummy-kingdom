@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace GummyBearKingdom.Models
 {
@@ -12,8 +8,11 @@ namespace GummyBearKingdom.Models
     {
         [Key]
         public int ProductId { get; set; }
+        [Required]
         public string Name { get; set; }
-        public float Cost { get; set; }
+        [Required]
+        public decimal Cost { get; set; }
+        [Required]
         public string OriginCountry { get; set; }
     }
 }
