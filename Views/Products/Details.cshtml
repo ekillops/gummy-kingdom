@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Gummy Bear Kindgom - Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model GummyBearKingdom.Models.Product
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>@Model.Name</h2>
+        <p>Sed sed sapien ac massa pulvinar tempor quis dapibus erat. Pellentesque tristique finibus interdum. Integer mattis ipsum ut diam bibendum, ac porttitor lorem consectetur. Nunc eget luctus leo, at lobortis libero. Sed semper malesuada sem, eget maximus quam ultricies ut. Aliquam egestas congue porta. Nullam finibus nunc sed purus vestibulum, vel lobortis risus lobortis. Duis gravida malesuada risus. Proin scelerisque erat in magna venenatis, at dictum elit placerat. Vivamus eget odio rutrum, fringilla ipsum ac, bibendum ante. Fusce vel mi sit amet libero gravida viverra ac sed libero. Aliquam id mi quis elit imperdiet maximus ut sit amet nunc.</p>
+    </div>
+    <div class="col-md-6">
+        <img src="@Model.ImageUrl" alt="@Model.Name" />
+    </div>
+</div>
+<hr />
+<a asp-controller="Products" asp-action="Edit" asp-route-id="@Model.ProductId" class="btn btn-danger">Edit Product</a>

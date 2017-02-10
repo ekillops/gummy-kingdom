@@ -1,5 +1,5 @@
---temp-output:c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\
---out:c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll
+--temp-output:c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\
+--out:c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -195,15 +195,15 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\ProductsController.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210194138_initial.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210194138_initial.Designer.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210214155_AddImgToProduct.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210214155_AddImgToProduct.Designer.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GummyContextModelSnapshot.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GummyContext.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs
+--resource:"c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\ProductsController.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210194138_initial.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210194138_initial.Designer.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210214155_AddImgToProduct.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170210214155_AddImgToProduct.Designer.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GummyContextModelSnapshot.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GummyContext.cs
+c:\Users\epicodus\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs

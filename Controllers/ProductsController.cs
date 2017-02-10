@@ -1,6 +1,7 @@
 ﻿using GummyBearKingdom.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace GummyBearKingdom.Controllers
@@ -11,7 +12,14 @@ namespace GummyBearKingdom.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<Product> allProducts = db.Products.ToList();
+            return View(allProducts);
+        }
+
+        public IActionResult Details(int id)
+        {
+            Product thisProduct = db.Products.FirstOrDefault(p => p.ProductId == id);
+            return View(thisProduct);
         }
 
         public IActionResult Create()
@@ -27,9 +35,9 @@ namespace GummyBearKingdom.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Edit(int productId)
+        public IActionResult Edit(int id)
         {
-            Product thisProduct = db.Products.FirstOrDefault(p => p.ProductId == productId);
+            Product thisProduct = db.Products.FirstOrDefault(p => p.ProductId == id);
             return View(thisProduct);
         }
 
@@ -41,16 +49,16 @@ namespace GummyBearKingdom.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Delete(int productId)
+        public IActionResult Delete(int id)
         {
-            Product thisProduct = db.Products.FirstOrDefault(p => p.ProductId == productId);
+            Product thisProduct = db.Products.FirstOrDefault(p => p.ProductId == id);
             return View(thisProduct);
         }
 
-        [HttpPost(ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int productId)
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int id)
         {
-            Product thisProduct = db.Products.FirstOrDefault(p => p.ProductId == productId);
+            Product thisProduct = db.Products.FirstOrDefault(p => p.ProductId == id);
             db.Products.Remove(thisProduct);
             db.SaveChanges();
             return RedirectToAction("Index");
