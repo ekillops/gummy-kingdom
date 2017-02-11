@@ -11,9 +11,35 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
 </head>
-<body>
-    <div class="container">
-        @RenderBody()
-    </div>
-</body>
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-left" asp-controller="Home" asp-action="Index"><img class="logo-img" src="~/img/GummyBearKingdom.png" alt="Main Logo" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Products" asp-action="Index">Products</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <img class="banner" src="~/img/rainbow-cropped.jpg" alt="Gummy Bear Rainbow" />
+        </div>
+        <div class="container">
+            @RenderBody()
+        </div>
+        <footer class="copyright">&copy;Gummy Bear Kingdom</footer>
+    </body>
 </html>
