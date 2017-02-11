@@ -12,11 +12,11 @@ namespace GummyBearKingdom.Models
         public int ProductId { get; set; }
         [Url]
         public string ImageUrl { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please enter product name")]
         public string Name { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please enter product cost")]
         public decimal Cost { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please enter product origin")]
         public string OriginCountry { get; set; }
     }
 }
